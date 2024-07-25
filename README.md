@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Springdale Public School Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a fully functional and responsive website for Springdale Public School, built using React.js, Tailwind CSS, and Redux Toolkit. It features various sections such as Home, About Us, Academics, Admissions, Faculty, Students, Gallery, and Contact Us.
 
-Currently, two official plugins are available:
+## Tech Stack
+- [React.js]
+- [TypeScript]
+- [TailwindCSS]
+- [Redux Toolkit]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Home:** Introduction and welcome message.
+- **About Us:** Information about the school's history, mission, and vision.
+- **Academics:** Overview of academic programs and curriculum.
+- **Admissions:** Admission process, criteria, and important dates.
+- **Faculty:** Profiles and qualifications of faculty members.
+- **Students:** Information on extracurricular activities, student achievements, and the student council.
+- **Gallery:** Photos and videos from school events.
+- **Contact Us:** Contact details and a form for inquiries.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Chakravarthy-E/school-website.git
+   cd school-website
+   ```
+2. ** Install Packages: **
+   ```sh
+   npm install
+   ```
+3. ** Run App**
+   ```sh
+   npm run dev
+   ```
