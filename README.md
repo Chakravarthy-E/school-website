@@ -3,10 +3,10 @@
 This project is a fully functional and responsive website for Springdale Public School, built using React.js, Tailwind CSS, and Redux Toolkit. It features various sections such as Home, About Us, Academics, Admissions, Faculty, Students, Gallery, and Contact Us.
 
 ## Tech Stack
-- [React.js]
-- [TypeScript]
-- [TailwindCSS]
-- [Redux Toolkit]
+- **React.js**
+- **TypeScript**
+- **TailwindCSS**
+- **Redux Toolkit**
 
 ## Table of Contents
 
