@@ -28,7 +28,7 @@ export function Link({ page, selectedPage, setSelectedPage }: Props) {
 function Navbar() {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [, setIsScrolled] = useState(false);
   const isAboveSmallScreens = useMediaQuery("(min-width:768px)");
 
   useEffect(() => {
